@@ -23,7 +23,8 @@ export default {
   },
   methods: {
     updateViews() {
-      this.showViews = this.$route.name !== "login";
+      this.showViews =
+        this.$route.name !== "login" && this.$route.name !== "not-found";
     },
   },
   created() {

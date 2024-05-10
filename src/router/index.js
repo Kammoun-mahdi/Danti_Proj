@@ -3,7 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import LoginVue from "../views/LoginVue.vue";
 import VRFFrom from "../components/VRF-Form.vue";
 import DeviceFrom from "../components/Device-Form.vue";
-
+import NotFoundComponent from "../components/Not-Found.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -29,6 +29,11 @@ const router = createRouter({
       name: "Device_Config",
       component: DeviceFrom,
       meta: { requiresAuth: true },
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "not-found",
+      component: NotFoundComponent,
     },
   ],
 });
