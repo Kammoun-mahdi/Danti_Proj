@@ -107,7 +107,7 @@ export default {
       this.showForm = this.$route.params.id === "Build_VRF";
     },
     addVRF() {
-      addDoc(collection(db, "buildVRF"), {
+      addDoc(collection(db, "dataset"), {
         VRF_Name: this.VRF_Names,
         RD: this.Rds,
         RT_Export: this.RT_Exports,

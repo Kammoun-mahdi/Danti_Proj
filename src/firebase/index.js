@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDJ4FGTMzLF0rbuAhEuvXWuxHaqAvII6qw",
-  authDomain: "danti-proj.firebaseapp.com",
-  projectId: "danti-proj",
-  storageBucket: "danti-proj.appspot.com",
-  messagingSenderId: "149018835235",
-  appId: "1:149018835235:web:f582ea6a7a55ed4c897496",
+  apiKey: "AIzaSyBL7GIJzHYoYIUREBCZNDnt5HI_z8bsBnM",
+  authDomain: "pfe-3s.firebaseapp.com",
+  projectId: "pfe-3s",
+  storageBucket: "pfe-3s.appspot.com",
+  messagingSenderId: "248788357144",
+  appId: "1:248788357144:web:3c30e05a271d164eafb36d"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
