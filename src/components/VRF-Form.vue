@@ -137,7 +137,7 @@ export default {
 
 <style scoped>
 .vrf_container {
-  margin: 80px auto;
+  margin: 81px auto;
   border-radius: 5px;
   margin-left: 35rem;
   width: 50%;
